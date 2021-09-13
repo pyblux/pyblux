@@ -1,0 +1,8 @@
+include RELEASE.md
+include CONTRIBUTING.md
+
+global-include *.txt *.py *.md
+
+include _version.py
+ 
+ 

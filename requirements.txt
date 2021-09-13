@@ -1,0 +1,10 @@
+pandas>=1.2.0
+teradatasql>=17.0.0.5
+cx-Oracle>=8.2.1
+Unidecode>=1.2.0
+requests>=2.26.0
+SQLAlchemy>=1.4.23
+teradatasqlalchemy>=17.0.0.1
+psycopg2-binary>=2.7.7
+PyMySQL>=1.0.2
+pyodbc>=4.0.32
