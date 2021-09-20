@@ -19,7 +19,9 @@ def get_engine(user:str,password:str,host:str,port:int,database:str,dialect:str,
     -------
     Connection Engine Object
     """
+    
     stdout=''
+    
     if verbose:
         logger('Attempting to connect to {} Database...'.format(dialect))
     engine = None
@@ -102,8 +104,8 @@ def get_connection(user:str,password:str,host:str,port:int,database:str,dialect:
     return connection
 
 
-def is_exist(table:str='', Blux:Blux=None,verbose:bool=False,logger:Callable=print):
-     """
+def is_exist(table:str='', Blux:Blux=None,verbose:bool=False,logger:Callable=print, stdout:str=''):
+    """
     Check if table exist for Teradata , Oracle, Aurora/Postgres, Aurora/MySql/MariaDB, SQLite, and  Microsoft SQL Server
     Returns
     -------
